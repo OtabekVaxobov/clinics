@@ -3,7 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import { Inter as FontSans } from "next/font/google"
 import { cn } from '@/lib/utils'
-import { Header } from '@/sections/Header'
+import { Header, Header2 } from '@/sections/Header'
 import Footer from '@/sections/Footer'
  
 
@@ -30,16 +30,16 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head />
       <body  className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background font-sans antialiased overflow-hidden",
           fontSans.variable
         )}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
-          <Header/>
+          <Header2/>
           {children}
           <Footer/>
         </ThemeProvider>
