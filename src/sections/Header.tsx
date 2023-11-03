@@ -15,6 +15,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { ModeToggle } from "@/components/theme/theme-provider"
 import { useState } from "react"
+import Logo from "@/components/Logo"
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -164,10 +165,19 @@ export function Header2() {
 
     return (
         <div className="flex items-center justify-between border-b border-gray-400 py-8 m-4 dark:bg-gray-900">
-            <a className="px-4" href="/">
-                <img src="" alt="" />Logo
-            </a>
-            <nav>
+        <div className="flex justify-start">
+          <a className="items-center justify-center px-4" href="/">
+            <Logo />
+
+          </a>
+          <div className="block lg:hidden md:hidden justify-center">
+            “Respublika ixtisoslashtirilgan ona va bola salomatligi ilmiy-amaliy tibbiyot markazi”<br /> davlat muassasasining Sirdaryo viloyati filiali
+          </div> 
+
+
+          </div>
+           
+          <nav>
                 <section className="MOBILE-MENU flex lg:hidden mx-4">
                     {isNavOpen || 
                     <div
@@ -200,13 +210,13 @@ export function Header2() {
                         </div>
                         <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
                             <li className="border-b border-gray-400 my-8 uppercase">
-                                <a href="/about">About</a>
+                                <a onClick={() => setIsNavOpen(false)} href="#about">Biz haqimizda</a>
                             </li>
                             <li className="border-b border-gray-400 my-8 uppercase">
-                                <a href="/portfolio">Portfolio</a>
+                                <a onClick={() => setIsNavOpen(false)} href="#portfolio">Portfolio</a>
                             </li>
                             <li className="border-b border-gray-400 my-8 uppercase">
-                                <a href="/contact">Contact</a>
+                                <a onClick={() => setIsNavOpen(false)} href="#contact">Bog'lanish</a>
                             </li>
                         </ul>
                     </div>
@@ -214,13 +224,13 @@ export function Header2() {
 
                 <ul className="DESKTOP-MENU hidden space-x-8 lg:flex ">
                     <li>
-                        <a href="/about">About</a>
+              <a href="#about">Biz haqimizda</a>
                     </li>
                     <li>
-                        <a href="/portfolio">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="/contact">Contact</a>
+              <a href="/#contact">Bog'lanish</a>
                     </li>
                     <li className="px-4">
                         <ModeToggle />
