@@ -2,9 +2,9 @@ import Gallery, { Gallery2, Gallery3 } from "@/components/gallery/Gallery"
 import Image from "next/image"
 import  bg  from "../../public/page-bg.jpg";
 import  Carusel  from "@/components/carusel";
-import Mygov  from "../../public/mygov.png";
-import Adliyadan  from "../../public/adliyadan.png";
-import Narxlar  from "../../public/narxlar.png";
+import Mygov  from "../../public/mygov.jpg";
+import Adliyadan  from "../../public/adliyadan.jpg";
+import Narxlar  from "../../public/narxlar.jpg";
 import { Pop } from "@/components/theme/Popover";
 import Link from "next/link";
 export default function Home() {
