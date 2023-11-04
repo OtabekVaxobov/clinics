@@ -216,7 +216,7 @@ export function Header2() {
                                 <a onClick={() => setIsNavOpen(false)} href="#portfolio">Portfolio</a>
                             </li>
                             <li className="border-b border-gray-400 my-8 uppercase">
-                                <a onClick={() => setIsNavOpen(false)} href="#contact">Bog'lanish</a>
+                  <a onClick={() => setIsNavOpen(false)} href="#contact">Bog&apos;lanish</a>
                             </li>
                         </ul>
                     </div>
@@ -230,7 +230,7 @@ export function Header2() {
                         <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-              <a href="/#contact">Bog'lanish</a>
+              <a href="/#contact">Bog&apos;lanish</a>
                     </li>
                     <li className="px-4">
                         <ModeToggle />
