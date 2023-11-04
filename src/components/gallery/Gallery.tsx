@@ -1,11 +1,16 @@
 import Image from "next/image"
 import { Suspense } from "react"
-
+import Direktor from "../../../public/direktor.jpg";
+import Y1 from "../../../public/yordamchisi1.jpg";
+import Y2 from "../../../public/yordamchisi2.jpg";
+import Y3 from "../../../public/yordamchisi3.jpg";
+import Y4 from "../../../public/yordamchisi4.jpg";
+import Y5 from "../../../public/yordamchisi5.jpg";
 export default function Gallery() {
     return (
         <>
-            <div className="px-3 md:lg:xl:px-40   border-t border-b py-20 bg-opacity-10">
-                <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white shadow-xl shadow-neutral-100 border ">
+            <div className="px-3 md:lg:xl:px-40 sm:p-0  border-t border-b py-20 bg-opacity-10">
+                <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 sm:grid-cols-2 group ">
 
 
                     <div
@@ -17,7 +22,7 @@ export default function Gallery() {
                                 d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg></span>
                         <p className="text-xl font-medium text-slate-700 mt-3">Most Experienced Team</p>
-                        <p className="mt-2 text-sm text-slate-500">Team BrainEdge education is a bunch of highly focused, energetic
+                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Team BrainEdge education is a bunch of highly focused, energetic
                             set of people.</p>
                     </div>
 
@@ -34,7 +39,7 @@ export default function Gallery() {
                         </svg></span>
                         <p className="text-xl font-medium text-slate-700 mt-3">Best
                             Test preparation</p>
-                        <p className="mt-2 text-sm text-slate-500">Know where you stand and what next to do to succeed .</p>
+                        <p className="  hidden sm:flex mt-2 text-sm text-slate-500">Know where you stand and what next to do to succeed .</p>
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group   md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
@@ -45,7 +50,7 @@ export default function Gallery() {
                                 d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                         </svg></span>
                         <p className="text-xl font-medium text-slate-700 mt-3">Admission process Guidance</p>
-                        <p className="mt-2 text-sm text-slate-500">Professional Advice for higher education abroad and select the
+                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Professional Advice for higher education abroad and select the
                             top institutions worldwide.</p>
                     </div>
 
@@ -58,7 +63,7 @@ export default function Gallery() {
                         </svg></span>
                         <p className="text-xl font-medium text-slate-700 mt-3">Best
                             Track Record</p>
-                        <p className="mt-2 text-sm text-slate-500">Yet another year ! Yet another jewel in our crown!</p>
+                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Yet another year ! Yet another jewel in our crown!</p>
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group    md:lg:xl:border-r hover:bg-slate-50 cursor-pointer">
@@ -70,7 +75,7 @@ export default function Gallery() {
                         </svg></span>
                         <p className="text-xl font-medium text-slate-700 mt-3">Free
                             Mock Exams</p>
-                        <p className="mt-2 text-sm text-slate-500">Get Topic-Wise Tests, Section- Wise and mock tests for your
+                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Get Topic-Wise Tests, Section- Wise and mock tests for your
                             preparation.</p>
                     </div>
 
@@ -83,7 +88,7 @@ export default function Gallery() {
                         </svg></span>
                         <p className="text-xl font-medium text-slate-700 mt-3">Genuine
                             Visa Advice</p>
-                        <p className="mt-2 text-sm text-slate-500">Visa process by helping you create the necessary documentation
+                        <p className="  hidden sm:flex mt-2 text-sm text-slate-500">Visa process by helping you create the necessary documentation
                         </p>
                     </div>
 
@@ -91,12 +96,6 @@ export default function Gallery() {
 
 
                 </div>
-
-                <div className="w-full   bg-indigo-600 shadow-xl shadow-indigo-200 py-10 px-20 flex justify-between items-center">
-                    <p className=" text-white"> <span className="text-4xl font-medium">Still Confused ?</span> <br/> <span className="text-lg">Book For Free Career Consultation Today ! </span></p>
-                    <button className="px-5 py-3  font-medium text-slate-700 shadow-xl  hover:bg-white duration-150  bg-yellow-400">BOOK AN APPOINTMENT </button>
-                </div>
-
             </div></>
     )
 }
@@ -105,9 +104,9 @@ export default function Gallery() {
 export function Gallery2(){
     return(
         <>
-            <div className="bg-gray-100 p-4 sm:p-8 md:p-16 mt-20">
+            <div className="bg-gray-100 md:p-16 mt-20">
                 <div className="container mx-auto">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
 
                         <a href="/frontend-performance"
                             className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
@@ -145,6 +144,24 @@ export function Gallery2(){
                                 Detailed list of best practices for Amazon Web Services (AWS)
                             </span>
                         </a>
+                        <a href="/aws"
+                            className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
+                            <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
+                                AWS
+                            </span>
+                            <span className="text-sm leading-normal text-gray-400 sm:block">
+                                Detailed list of best practices for Amazon Web Services (AWS)
+                            </span>
+                        </a>
+                        <a href="/aws"
+                            className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
+                            <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
+                                AWS
+                            </span>
+                            <span className="text-sm leading-normal text-gray-400 sm:block">
+                                Detailed list of best practices for Amazon Web Services (AWS)
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -157,13 +174,13 @@ export function Gallery3(){
     return(
         <>
         <Suspense>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 p-4 max-w-[400px] md:max-w-[600px] place-items-center">
-            <Image className="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=1" alt={""} width={150} height={150}/>
-            <img className="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=2"/>
-            <img className="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=3"/>
-            <img className="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=4"/>
-            <img className="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=5"/>
-            <img className="hover:opacity-75" src="https://source.unsplash.com/collection/1346951/150x150?sig=6"/>
+            <div id='about' className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4 max-w-[10 00px]  place-items-center">
+            <Image className="hover:opacity-75" src={Direktor} alt={""} width={250} height={250}/>
+            <Image className="hover:opacity-75" src={Y1} alt={""} width={250} height={250}/>
+            <Image className="hover:opacity-75" src={Y2} alt={""} width={250} height={250}/>
+            <Image className="hover:opacity-75" src={Y3} alt={""} width={250} height={250}/>
+            <Image className="hover:opacity-75" src={Y4} alt={""} width={225} height={225}/>
+            <Image className="hover:opacity-75" src={Y5} alt={""} width={250} height={250}/>
             </div>
         </Suspense>
         </>

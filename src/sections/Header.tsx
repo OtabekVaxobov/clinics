@@ -165,13 +165,14 @@ export function Header2() {
 
     return (
         <div className="flex items-center justify-between border-b border-gray-400 py-8 m-4 dark:bg-gray-900">
-        <div className="flex justify-start">
+        <div className="hidden md:flex">
           <a className="items-center justify-center px-4" href="/">
             <Logo />
 
           </a>
-          <div className="block lg:hidden md:hidden justify-center">
-            “Respublika ixtisoslashtirilgan ona va bola salomatligi ilmiy-amaliy tibbiyot markazi”<br /> davlat muassasasining Sirdaryo viloyati filiali
+          <div className="font-sans font-semibold">
+           <h1> “Respublika ixtisoslashtirilgan ona va bola salomatligi ilmiy-amaliy tibbiyot markazi”<br /> davlat muassasasining Sirdaryo viloyati filiali
+          </h1>
           </div> 
 
 
@@ -213,7 +214,7 @@ export function Header2() {
                                 <a onClick={() => setIsNavOpen(false)} href="#about">Biz haqimizda</a>
                             </li>
                             <li className="border-b border-gray-400 my-8 uppercase">
-                                <a onClick={() => setIsNavOpen(false)} href="#portfolio">Portfolio</a>
+                                <a onClick={() => setIsNavOpen(false)} href="#portfolio">Ochiq malumotlar</a>
                             </li>
                             <li className="border-b border-gray-400 my-8 uppercase">
                   <a onClick={() => setIsNavOpen(false)} href="#contact">Bog&apos;lanish</a>
