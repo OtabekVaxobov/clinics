@@ -7,6 +7,8 @@ import Adliyadan  from "../../public/adliyadan.jpg";
 import Narxlar  from "../../public/narxlar.jpg";
 import { Pop } from "@/components/theme/Popover";
 import Link from "next/link";
+import { Questions } from "@/components/Questions";
+import { About } from "@/components/About";
 export default function Home() {
   return (
     <>
@@ -27,17 +29,17 @@ export default function Home() {
                 </div>
       <main className="flex min-h-screen flex-col items-center justify-between sm:p-24">
         <Carusel/>
+        <About/>
         <Gallery />
         {/* <Gallery2 /> */}
         
+        <Questions/>
         
 
         <Gallery3 />
 
       
-
-      </main>
-     
+<h2 className=" pt-8 text-3xl">Meyoriy hujjatlar</h2>
       <section id="hujjatlar" className="flex flex-row justify-center gap-4 py-8">
         <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1PJVlWqWu_THeBSolZszUiRNMkcgqu8Wd/view?usp=sharing' title="Tashkilot haqida hujjat">
           <Image src={Mygov} alt={"hujjatlar"} width={100} height={100}/>
@@ -49,6 +51,8 @@ export default function Home() {
           <Image src={Narxlar} alt={"narxlar"} width={120} height={120}/>
         </Link>
       </section>
+      </main>
+      
 
       
       

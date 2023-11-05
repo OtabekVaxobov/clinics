@@ -9,7 +9,7 @@ import Y5 from "../../../public/yordamchisi5.jpg";
 export default function Gallery() {
     return (
         <>
-            <div className="px-3 md:lg:xl:px-40 sm:p-0  border-t border-b py-20 bg-opacity-10">
+            <div id="About" className="px-3 md:lg:xl:px-40 sm:p-0  border-t border-b py-20 bg-opacity-10">
                 <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 sm:grid-cols-2 group ">
                     <div
                         className="p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
@@ -19,9 +19,9 @@ export default function Gallery() {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                 d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                         </svg></span>
-                        <p className="text-xl font-medium text-slate-700 mt-3">Most Experienced Team</p>
-                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Team BrainEdge education is a bunch of highly focused, energetic
-                            set of people.</p>
+                        <p className="text-xl font-medium text-slate-700 mt-3">Mamnun bemorlar</p>
+                        {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Team BrainEdge education is a bunch of highly focused, energetic
+                            set of people.</p> */}
                     </div>
 
                     <div
@@ -35,9 +35,9 @@ export default function Gallery() {
                             <line x1="16" y1="17" x2="8" y2="17"></line>
                             <polyline points="10 9 9 9 8 9"></polyline>
                         </svg></span>
-                        <p className="text-xl font-medium text-slate-700 mt-3">Best
-                            Test preparation</p>
-                        <p className="  hidden sm:flex mt-2 text-sm text-slate-500">Know where you stand and what next to do to succeed .</p>
+                        <p className="text-xl font-medium text-slate-700 mt-3">
+                           Malakali mutaxassislar</p>
+                        {/* <p className="  hidden sm:flex mt-2 text-sm text-slate-500">Know where you stand and what next to do to succeed .</p> */}
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group   md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
@@ -47,9 +47,9 @@ export default function Gallery() {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                 d="M17 8h2a2 2 0 012 2v6a2 2 0 01-2 2h-2v4l-4-4H9a1.994 1.994 0 01-1.414-.586m0 0L11 14h4a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2v4l.586-.586z" />
                         </svg></span>
-                        <p className="text-xl font-medium text-slate-700 mt-3">Admission process Guidance</p>
-                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Professional Advice for higher education abroad and select the
-                            top institutions worldwide.</p>
+                        <p className="text-xl font-medium text-slate-700 mt-3">Chet el fuqorolariga hizmat</p>
+                        {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Professional Advice for higher education abroad and select the
+                            top institutions worldwide.</p> */}
                     </div>
 
 
@@ -59,9 +59,8 @@ export default function Gallery() {
                             stroke="currentColor" strokeWidth="1.5">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
                         </svg></span>
-                        <p className="text-xl font-medium text-slate-700 mt-3">Best
-                            Track Record</p>
-                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Yet another year ! Yet another jewel in our crown!</p>
+                        <p className="text-xl font-medium text-slate-700 mt-3">Ish tajribasi</p>
+                        {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Yet another year ! Yet another jewel in our crown!</p> */}
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group    md:lg:xl:border-r hover:bg-slate-50 cursor-pointer">
@@ -71,10 +70,9 @@ export default function Gallery() {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                 d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                         </svg></span>
-                        <p className="text-xl font-medium text-slate-700 mt-3">Free
-                            Mock Exams</p>
-                        <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Get Topic-Wise Tests, Section- Wise and mock tests for your
-                            preparation.</p>
+                        <p className="text-xl font-medium text-slate-700 mt-3">Perinatal xizmatlar</p>
+                        {/* <p className=" hidden sm:flex mt-2 text-sm text-slate-500">Get Topic-Wise Tests, Section- Wise and mock tests for your
+                            preparation.</p> */}
                     </div>
 
                     <div className="p-10 flex flex-col items-center text-center group     hover:bg-slate-50 cursor-pointer">
@@ -84,9 +82,8 @@ export default function Gallery() {
                             <path strokeLinecap="round" strokeLinejoin="round"
                                 d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                         </svg></span>
-                        <p className="text-xl font-medium text-slate-700 mt-3">Genuine
-                            Visa Advice</p>
-                        <p className="  hidden sm:flex mt-2 text-sm text-slate-500">Visa process by helping you create the necessary documentation
+                        <p className="text-xl font-medium text-slate-700 mt-3">Xavfsizlik</p>
+                        <p className="  hidden sm:flex mt-2 text-sm text-slate-500">
                         </p>
                     </div>
 
@@ -106,7 +103,7 @@ export function Gallery2(){
                 <div className="container mx-auto">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
 
-                        <a href="/frontend-performance"
+                        <a href="#"
                             className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
                             <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
                                 Frontend Performance
@@ -115,7 +112,7 @@ export function Gallery2(){
                                 Detailed list of best practices to improve your frontend performance
                             </span>
                         </a>
-                        <a href="/api-security"
+                        <a href="#"
                             className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
                             <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
                                 API Security
@@ -124,7 +121,7 @@ export function Gallery2(){
                                 Detailed list of best practices to make your APIs secure
                             </span>
                         </a>
-                        <a href="/code-review"
+                        <a href="#"
                             className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
                             <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
                                 Code Reviews
@@ -133,7 +130,7 @@ export function Gallery2(){
                                 Detailed list of best practices for effective code reviews and quality
                             </span>
                         </a>
-                        <a href="/aws"
+                        <a href="#"
                             className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
                             <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
                                 AWS
@@ -142,7 +139,7 @@ export function Gallery2(){
                                 Detailed list of best practices for Amazon Web Services (AWS)
                             </span>
                         </a>
-                        <a href="/aws"
+                        <a href="#"
                             className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
                             <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
                                 AWS
@@ -151,7 +148,7 @@ export function Gallery2(){
                                 Detailed list of best practices for Amazon Web Services (AWS)
                             </span>
                         </a>
-                        <a href="/aws"
+                        <a href="#"
                             className="relative flex h-full flex-col rounded-md border border-gray-200 bg-white p-2.5 hover:border-gray-400 sm:rounded-lg sm:p-5">
                             <span className="text-md mb-0 font-semibold text-gray-900 hover:text-black sm:mb-1.5 sm:text-xl">
                                 AWS
@@ -173,17 +170,17 @@ export function Gallery3(){
         <>
         <Suspense>
             <h2 id='rahbariyat' className="text-3xl py-8">Rahbariyat</h2>
-            <div id='about' className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4 max-w-[900px]">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4 max-w-[720px]">
                 <div>
                     <Image className="hover:opacity-75" src={Direktor} alt={""} width={250} height={250}/>
                     <h3 className=" font-semibold">Sadikova Xanifa Zakirovna</h3>
-                    <p>Direktor</p>    
+                    <p className="text-gray-500">Direktor</p>    
                 </div>
             
                 <div>
                     <Image className="hover:opacity-75" src={Y1} alt={""} width={250} height={250}/>
                     <h3 className=" font-semibold">Mirzakulova Matluba Djurabayevna</h3>
-                    <p>Davolash ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
+                    <p className="text-gray-500">Davolash ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
                 </div>
             <div>
                  <Image className="hover:opacity-75" src={Y2} alt={""} width={250} height={250}/>
@@ -193,17 +190,17 @@ export function Gallery3(){
              <div>
                  <Image className="hover:opacity-75" src={Y3} alt={""} width={250} height={250}/>
                   <h3 className=" font-semibold">Babayeva Sayyora Xaldarovna</h3>
-                    <p>Reproduktiv salomatlik va yordamchi<br/> reaproduktiv texnologiyalar<br/> bo&apos;yicha direktor o&apos;rinbosari</p>
+                    <p className="text-gray-500">Reproduktiv salomatlik va yordamchi<br/> reaproduktiv texnologiyalar<br/> bo&apos;yicha direktor o&apos;rinbosari</p>
             </div>
              <div>
                 <Image className="hover:opacity-75" src={Y4} alt={""} width={225} height={225}/>
                  <h3 className=" font-semibold">Alimbabayeva Gulnoza Abdubakiyevna</h3>
-                    <p>Ona va bola skrinigi masalalari bo&apos;yicha direktor o&apos;rinbosari</p>
+                    <p className="text-gray-500">Ona va bola skrinigi masalalari bo&apos;yicha direktor o&apos;rinbosari</p>
             </div>
              <div>
                 <Image className="hover:opacity-75" src={Y5} alt={""} width={250} height={250}/>
                  <h3 className=" font-semibold">Tursinmurodov Dilshod Raxmonqulovich</h3>
-                    <p>Xo&apos;jalik ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
+                    <p className="text-gray-500">Xo&apos;jalik ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
             </div>
            
            

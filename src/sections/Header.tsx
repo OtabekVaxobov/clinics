@@ -214,10 +214,10 @@ export function Header2() {
                                 <a onClick={() => setIsNavOpen(false)} href="#about">Biz haqimizda</a>
                             </li>
                             <li className="border-b border-gray-400 my-8 uppercase">
-                                <a onClick={() => setIsNavOpen(false)} href="#portfolio">Ochiq malumotlar</a>
+                                <a onClick={() => setIsNavOpen(false)} href="#hujjatlar">Ochiq malumotlar</a>
                             </li>
                             <li className="border-b border-gray-400 my-8 uppercase">
-                  <a onClick={() => setIsNavOpen(false)} href="#contact">Bog&apos;lanish</a>
+                  <a onClick={() => setIsNavOpen(false)} href="#footer">Bog&apos;lanish</a>
                             </li>
                         </ul>
                     </div>
@@ -228,10 +228,10 @@ export function Header2() {
               <a href="#about">Biz haqimizda</a>
                     </li>
                     <li>
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#footer">Manzil</a>
                     </li>
                     <li>
-              <a href="/#contact">Bog&apos;lanish</a>
+              <a href="#hujjatlar">Hujjatlar</a>
                     </li>
                     <li className="px-4">
                         <ModeToggle />
