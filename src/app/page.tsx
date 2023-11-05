@@ -26,9 +26,9 @@ export default function Home() {
                     <p className="font-medium text-slate-700  dark:text-white  hover:bg-slate-700 duration-150"><Pop/></p>
                 </div>
       <main className="flex min-h-screen flex-col items-center justify-between sm:p-24">
-        <Gallery />
         <Carusel/>
-        <Gallery2 />
+        <Gallery />
+        {/* <Gallery2 /> */}
         
         
 
@@ -37,7 +37,8 @@ export default function Home() {
       
 
       </main>
-      <section className="flex flex-row justify-center gap-4">
+     
+      <section id="hujjatlar" className="flex flex-row justify-center gap-4 py-8">
         <Link target="_blank" rel="noopener noreferrer" download href='https://drive.google.com/file/d/1PJVlWqWu_THeBSolZszUiRNMkcgqu8Wd/view?usp=sharing' title="Tashkilot haqida hujjat">
           <Image src={Mygov} alt={"hujjatlar"} width={100} height={100}/>
         </Link>
@@ -48,6 +49,8 @@ export default function Home() {
           <Image src={Narxlar} alt={"narxlar"} width={120} height={120}/>
         </Link>
       </section>
+
+      
       
     </>
    

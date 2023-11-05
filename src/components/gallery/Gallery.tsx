@@ -11,8 +11,6 @@ export default function Gallery() {
         <>
             <div className="px-3 md:lg:xl:px-40 sm:p-0  border-t border-b py-20 bg-opacity-10">
                 <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 sm:grid-cols-2 group ">
-
-
                     <div
                         className="p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
                         <span className="p-5 rounded-full bg-red-500 text-white shadow-lg shadow-red-200"><svg
@@ -174,13 +172,43 @@ export function Gallery3(){
     return(
         <>
         <Suspense>
-            <div id='about' className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4 max-w-[10 00px]  place-items-center">
-            <Image className="hover:opacity-75" src={Direktor} alt={""} width={250} height={250}/>
-            <Image className="hover:opacity-75" src={Y1} alt={""} width={250} height={250}/>
-            <Image className="hover:opacity-75" src={Y2} alt={""} width={250} height={250}/>
-            <Image className="hover:opacity-75" src={Y3} alt={""} width={250} height={250}/>
-            <Image className="hover:opacity-75" src={Y4} alt={""} width={225} height={225}/>
-            <Image className="hover:opacity-75" src={Y5} alt={""} width={250} height={250}/>
+            <h2 id='rahbariyat' className="text-3xl py-8">Rahbariyat</h2>
+            <div id='about' className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4 max-w-[900px]">
+                <div>
+                    <Image className="hover:opacity-75" src={Direktor} alt={""} width={250} height={250}/>
+                    <h3 className=" font-semibold">Sadikova Xanifa Zakirovna</h3>
+                    <p>Direktor</p>    
+                </div>
+            
+                <div>
+                    <Image className="hover:opacity-75" src={Y1} alt={""} width={250} height={250}/>
+                    <h3 className=" font-semibold">Mirzakulova Matluba Djurabayevna</h3>
+                    <p>Davolash ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
+                </div>
+            <div>
+                 <Image className="hover:opacity-75" src={Y2} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Abdullayeva Sayyora Karimovna</h3>
+                    <text>Neonatalogiya ishlari bo&apos;yicha<br/> direktor o&apos;rinbosari</text>
+            </div>
+             <div>
+                 <Image className="hover:opacity-75" src={Y3} alt={""} width={250} height={250}/>
+                  <h3 className=" font-semibold">Babayeva Sayyora Xaldarovna</h3>
+                    <p>Reproduktiv salomatlik va yordamchi<br/> reaproduktiv texnologiyalar<br/> bo&apos;yicha direktor o&apos;rinbosari</p>
+            </div>
+             <div>
+                <Image className="hover:opacity-75" src={Y4} alt={""} width={225} height={225}/>
+                 <h3 className=" font-semibold">Alimbabayeva Gulnoza Abdubakiyevna</h3>
+                    <p>Ona va bola skrinigi masalalari bo&apos;yicha direktor o&apos;rinbosari</p>
+            </div>
+             <div>
+                <Image className="hover:opacity-75" src={Y5} alt={""} width={250} height={250}/>
+                 <h3 className=" font-semibold">Tursinmurodov Dilshod Raxmonqulovich</h3>
+                    <p>Xo&apos;jalik ishlari bo&apos;yicha direktor o&apos;rinbosari</p>
+            </div>
+           
+           
+            
+            
             </div>
         </Suspense>
         </>
