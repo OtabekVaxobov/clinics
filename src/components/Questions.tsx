@@ -62,7 +62,7 @@ export function Questions() {
                     bog&apos;liq asoratlarni oldini olish uchun tug&apos;ilish orasidagi optimal interval 2 - 2,5 yil bo&apos;lishi kerak. Hisoblash bir yil 
                     davomida emizishni, to&apos;qqiz oy davomida laktatsiya davridan keyin tiklanishni hisobga oladi va taxminan olti oy tanadagi 
                     ozuqa moddalari, mikroelementlar va vitaminlar bilan to&apos;ldirish uchun ajratiladi. Ammo bu emizikli bo&apos;lmagan ayollarga 
-                    "muhlat" kerak emas degani emas, chunki tug&apos;ilgandan keyin reproduktiv tizimning barcha a&apos;zolari (bachadon, tuxumdonlar), 
+                    &quot;muhlat&quot; kerak emas degani emas, chunki tug&apos;ilgandan keyin reproduktiv tizimning barcha a&apos;zolari (bachadon, tuxumdonlar), 
                     tos bo&apos;shlig&apos;i mushaklari, sut bezlari, shuningdek, gormonal darajalar, miqdori va tarkibi. normal holatga qaytishi kerak.
                 </li>
                 <li>
